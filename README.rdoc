@@ -1,0 +1,1 @@
+This app is an API that calls data from the schoolist app. It's a practice application for the Turing School of Software & Design. The goal is to understand how to build our own API. This app uses the Hurly gem to setup the connections.
