@@ -11,6 +11,10 @@ class School < OpenStruct
     School.new(service.school(id))
   end
 
+  def self.create(params)
+    School.new(service.create_school(params))
+  end
+
   # attr_accessor :id,
   #               :uid,
   #               :overweight_percentage,
